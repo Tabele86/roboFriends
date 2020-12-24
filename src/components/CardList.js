@@ -2,6 +2,11 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ robots }) => {
+	//this is just to show error boundry functions though this is dev version of react
+
+	// if (true) {
+	// 	throw new Error('NOOOO!');
+	// }
 	return (
 		<div>
 			{robots.map((user, i) => {
